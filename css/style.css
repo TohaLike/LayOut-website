@@ -1,0 +1,131 @@
+body {
+    background-color: #202020;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #DEDEDE;
+}
+
+.wrapper {
+    padding-left: 96px;
+    padding-right: 96px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+.header {
+    background-color: #323232B2;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+}
+
+.logo__image {
+    background-image: url(../image/logo.svg);
+    display: block;
+    width: 29px;
+    height: 40px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 11px;
+}
+
+.nav__section {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav__section li {
+    margin-right: 56px;   
+}
+
+.nav__section li a {
+    text-decoration: none;
+    font-size: 18px;
+    transition: .2s ease;
+    color: #DEDEDE;
+}
+
+.nav__section li a:hover {
+    color: #797979;
+}
+
+/* Banner */
+
+.banner {
+    margin-top: 129px;
+}
+
+.adaptive__image__block {
+    display: none;
+}
+
+.banner__container {
+    display: flex;
+}
+
+.banner__info {
+    width: 600px;
+}
+
+.banner__title {
+    font-size: 64px;
+    margin: 0;
+}
+
+.suptitle__container {
+    width: 500px;
+}
+
+.banner__suptitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #959595;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.banner__image {
+    margin-left: 500px;
+}
+
+/* Button block */
+
+.letter {
+    background-image: url(../image/letter.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 30px;
+    height: 20px;
+    margin-right: 16px;
+    transition: .2s ease;
+}
+
+.button {
+    background-color: #9D9D9D;
+    padding: 19px 105px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    transition: .2s ease;
+}
+
+.button:hover {
+    background-color:  #707372;
+}
